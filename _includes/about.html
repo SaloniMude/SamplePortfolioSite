@@ -1,7 +1,7 @@
 <section>
-  <h3>About Myself</h3>
+  <h3>About Me</h3>
   <div class="face-lockup">
-    <div class="face-img"></div>
+    <div class="face-img" style="background-image: url(/assets/img/{{site.avatar}});"></div>
     
     <div class="icon-pencil">{% include icons/icon-pencil.html %}</div>
     <div class="icon-mouse">{% include icons/icon-mouse.html %}</div>
@@ -9,8 +9,8 @@
     <div class="icon-video">{% include icons/icon-video.html %}</div>
   </div>
   
-  <div class="blurb">
-    <p><strong>Suspendisse at nibh libero.</strong> Etiam ut lacus eu lorem molestie tempor. Aliquam tincidunt eros erat. Nullam rutrum volutpat egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus a nisl ultricies diam sodales efficitur. Aenean eu sem laoreet, pharetra risus vel, dictum diam. Sed egestas vestibulum massa, laoreet consequat magna vestibulum nec.</p>
+  <div class="blurb"> <!-- Remember to add links to blurb-->
+    {{ site.blurb }}
   </div>
   
   <div class="skill-lockup">

@@ -3,3 +3,18 @@
   font-size: 14px;
   text-transform: uppercase;
 }
+
+%bg-footer {
+  background-image: url("/assets/img/newlogo.svg"), url("/assets/img/hero-bg-footer.jpeg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50px 50px, cover;
+  background-position: 30px 50px, 50% 50%;
+  background-blend-mode: overlay, normal;
+}  
+
+%bg-header {
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50px 50px, cover;
+  background-position: 25px 15px, 50% 50%;
+  background-blend-mode: overlay, normal;
+}  

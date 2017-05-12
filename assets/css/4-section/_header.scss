@@ -1,16 +1,7 @@
 header {
+  @extend %bg-header;
   height: 450px;
-  background-image: url("/assets/img/hero-bg.jpeg");
-  background-size: cover;
-  background-position: center;
-  
-  .logo {
-    background-image: url("/assets/img/newlogo.svg");
-    @include size(50px);
-    float: left;
-    margin: 10px 0 0 30px;
-    background-blend-mode: overlay;
-  }
+  background-position: 30px 20px, 50% 50%;
   
   nav {
     float: right;

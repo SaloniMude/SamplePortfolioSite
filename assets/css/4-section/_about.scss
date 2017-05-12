@@ -1,20 +1,14 @@
-h3 {
-  @extend %small-bold;
-  color: $accent-light;
-  text-align: center;
-  padding: 100px 0 30px;
-  
-}
+
 
 .face-lockup {
   max-width: 780px;
   @include display(flex);
   margin: 0 auto;
   @include align-items(center);
-  @include justify-content(space-around);
+  @include justify-content(space-between);
+  
   .face-img {
     @include size(140px);
-    background: url("/assets/img/my-face.jpg");
     background-repeat: no-repeat;
     order: 3;
   } 
