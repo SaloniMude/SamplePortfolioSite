@@ -1,0 +1,57 @@
+header {
+  height: 450px;
+  background-image: url("/assets/img/hero-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  
+  .logo {
+    background-image: url("/assets/img/newlogo.svg");
+    @include size(50px);
+    float: left;
+    margin: 10px 0 0 30px;
+    background-blend-mode: overlay;
+  }
+  
+  nav {
+    float: right;
+    margin: 30px 30px 0 0;
+    a{
+      display: inline-block;
+      margin-left: 20px;
+      color: rgba(0, 0, 0, 0.7); //if in photoshop color is say blk 70%
+      @extend %small-bold;
+      
+      &:hover {
+        color: rgba(0, 0, 0, 1);
+      }
+    }
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+    clear: both;
+    padding-top: 100px;
+    
+    span {
+      display: inline-block;
+      padding: 0.2em 0.5em;
+      border: white solid 10px;
+    }
+  }
+  
+  .kicker {
+    text-align: center;
+    @extend %small-bold;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    color: white;
+  }
+}
+
+
