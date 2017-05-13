@@ -1,11 +1,12 @@
-<header style="background-image: url(/assets/img/{{site.logo}}), url(/assets/img/{{site.bg-header-img}});">
+<header id="header" style="background-image: url(/assets/img/{{site.data.layout.logo}}), url(/assets/img/{{site.data.layout.bg-header-img}});">
   <nav>
-    <a href="">About Me</a>
-    <a href="">Work</a>
-    <a href="">Contact</a>
-    <a href="">Skill</a>
+
+    {% for item in site.data.settings.menu %}
+       <a href="{{ item.url }}"> {{ item.name }} </a>
+    {% endfor %}
+
   </nav>
   
-  <h1><span>{{ site.title }}</span></h1>
-  <p class="kicker">{{ site.description }}</p>
+  <h1><span>{{ site.data.settings.title }}</span></h1>
+  <p class="kicker">{{ site.data.settings.description }}</p>
 </header>

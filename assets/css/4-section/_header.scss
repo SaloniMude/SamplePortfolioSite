@@ -1,8 +1,7 @@
 header {
-  @extend %bg-header;
+  @extend %bg-img;
   height: 450px;
   background-position: 30px 20px, 50% 50%;
-  
   nav {
     float: right;
     margin: 30px 30px 0 0;
@@ -11,13 +10,13 @@ header {
       margin-left: 20px;
       color: rgba(0, 0, 0, 0.7); //if in photoshop color is say blk 70%
       @extend %small-bold;
-      
+
       &:hover {
         color: rgba(0, 0, 0, 1);
       }
     }
   }
-  
+
   h1 {
     text-align: center;
     font-size: 72px;
@@ -28,14 +27,14 @@ header {
     margin-bottom: 20px;
     clear: both;
     padding-top: 100px;
-    
+
     span {
       display: inline-block;
       padding: 0.2em 0.5em;
       border: white solid 10px;
     }
   }
-  
+
   .kicker {
     text-align: center;
     @extend %small-bold;
@@ -44,5 +43,3 @@ header {
     color: white;
   }
 }
-
-
