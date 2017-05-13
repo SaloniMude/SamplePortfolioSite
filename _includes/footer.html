@@ -1,12 +1,11 @@
-<footer style="background-image: url(/assets/img/{{site.logo}}), url(/assets/img/{{site.bg-footer-img}});">
+<footer id="footer" style="background-image: url(/assets/img/{{site.data.layout.logo}}), url(/assets/img/{{site.data.layout.bg-footer-img}});">
   <div class="lockup">
     
     <div class="content-wrap">
       <nav>
-        <a href="">About Me</a>
-        <a href="">Work</a>
-        <a href="">Contact</a>
-        <a href="">Skill</a>
+        {% for item in site.data.settings.menu %}
+           <a href="{{ item.url }}"> {{ item.name }} </a>
+        {% endfor %}
       </nav>
 
       <p class="copyright">All content copyright 2017</p>

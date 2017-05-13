@@ -1,6 +1,5 @@
 footer {
-  @extend %bg-footer; 
-  
+  @extend %bg-img; 
   .lockup {
     padding: 50px 30px;
     @include clearfix;

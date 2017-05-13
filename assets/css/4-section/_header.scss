@@ -1,8 +1,6 @@
 header {
-  @extend %bg-header;
+  @extend %bg-img;
   height: 450px;
-  background-position: 30px 20px, 50% 50%;
-  
   nav {
     float: right;
     margin: 30px 30px 0 0;

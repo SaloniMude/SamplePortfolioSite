@@ -1,0 +1,27 @@
+#GENERAL SITE SETTINGS
+
+title: Saloni Mude
+email: your-email@domain.com
+description: "Thinker // Designer // Programmer"
+
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Skill, url: '#skill'}
+- {name: Contact, url: '#contact'}
+
+#ABOUT SECTION
+
+blurb: <p><strong>I do  geeky code stuff.</strong> When I'm not spending time talking to my fish, I also enjoy practising UX design. I like to think of it as drawing with code. Slick, snazzy websites make me weak in the knees so I'm always looking to get better at making them. </p>
+
+ 
+skills:
+- {name: Communication, value: '9'}
+- {name: Organization, value: '7'}
+- {name: Learning, value: '10'}
+- {name: Teaching, value: '6'}
+- {name: Planning, value: '7'}
+- {name: Visual Design, value: '5'}
+- {name: UX Design, value: '8'}
+- {name: Programming, value: '6'}

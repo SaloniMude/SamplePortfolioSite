@@ -15,33 +15,6 @@
 # in the templates via {{ site.myvariable }}.
 
 
-
-
-
-title: Saloni Mude
-email: your-email@domain.com
-description: "Thinker // Designer // Coder"
-
-
-#Site default images and content can be changed from here!!
-logo: newlogo.svg
-
-bg-header-img: hero-bg.jpeg
-bg-footer-img: hero-bg-footer.jpeg
-
-avatar: my-face.jpg
-
-blurb: <p><strong>I do  geeky code stuff.</strong> When I'm not spending time talking to my fish, I also enjoy practising UX design. I like to think of it as drawing with code. Slick, snazzy websites make me weak in the knees so I'm always looking to get better at making them. </p>
-
-
-
-
-
-
-
-
-
-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -55,3 +28,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  
+sass:
+sass_dir: assets/css
