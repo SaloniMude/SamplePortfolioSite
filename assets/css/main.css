@@ -538,7 +538,8 @@ header, footer {
   background-blend-mode: overlay, normal; }
 
 header {
-  height: 450px; }
+  height: 450px;
+  background-position: 30px 20px, 50% 50%; }
   header nav {
     float: right;
     margin: 30px 30px 0 0; }
