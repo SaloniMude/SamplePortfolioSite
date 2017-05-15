@@ -36,10 +36,10 @@ function workLoad() {
   $('.thumb-unit').click(function() {
     var $this = $(this),
       newTitle = $this.find('strong').text(),
-      newFolder = $this.data('folder'),
       spinner = '<div class="loader">Loading...</div>',
-      newHTML = '/work/'+ newFolder + '.html';
-    $('.project-load').html(spinner).load(newHTML);
+      url = $this.find('.thumb-unit').data('url');
+//      newHTML = '/work/'+ newFolder + '.html';
+    $('.project-load').html(spinner).load(url);
     $('.project-title').text(newTitle);
   });
 }
