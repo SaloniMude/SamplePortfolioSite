@@ -1,0 +1,33 @@
+<section class="alt-section section-work">
+  <h3 id ="#work">Work</h3>
+  
+  <div class="work-belt">
+    <div class="thumb-wrap">
+      <div class="thumb-container">
+
+      {% for project in site.data.settings.projects %}
+      <div class="thumb-unit" style="background-image: url(/assets/img/work/{{ project.folder }}/thumb.jpg)">
+        <div class="thumb-overlay">
+          <strong>{{project.name}}</strong>
+        </div>
+      </div>
+      {% endfor %}
+      </div>
+    </div>
+    <div class="work-wrap">
+      <div class="work-container">
+        <div class="work-return">{% include icons/icon-back.html %}</div>
+        <h4>Do Work</h4>
+        <div style="width:600px; height: 500px; background: #ccc;"></div>
+        <p>Eos idque option te, possit animal vix in. Dicit eruditi epicurei mei ex, quo consul dicunt detracto te</p>
+
+        <div style="width:600px; height: 500px; background: #ccc;"></div>
+        <p>Eos idque option te, possit animal vix in. Dicit eruditi epicurei mei ex, quo consul dicunt detracto te</p>
+
+        <div style="width:600px; height: 500px; background: #ccc;"></div>
+        <p>Eos idque option te, possit animal vix in. Dicit eruditi epicurei mei ex, quo consul dicunt detracto te</p>
+
+    </div>
+    </div>
+  </div>
+</section>
