@@ -28,4 +28,9 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+include: ['_includes/work']
+sass:
+  sass_dir: assets/css
+  
   
